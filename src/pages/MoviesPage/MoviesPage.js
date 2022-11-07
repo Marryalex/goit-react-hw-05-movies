@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link, useLocation, useSearchParams, Outlet } from 'react-router-dom';
+import { Link, useLocation, useSearchParams } from 'react-router-dom';
 import * as moviesAPI from '../../services/movies-api';
 import {
   SearchForm,
