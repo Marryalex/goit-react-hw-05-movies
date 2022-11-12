@@ -31,7 +31,7 @@ export default function App() {
           <Route path='movies' element={<MoviesPage />}></Route>
           <Route path='movies/:movieId' element={<MovieDetailsPage />}>
               <Route path='cast' element={<Cast />}> </Route>
-              <Route path='reviews' elements={<Reviews />}> </Route>
+              <Route path='reviews' element={<Reviews />}> </Route>
           </Route>
           
           
